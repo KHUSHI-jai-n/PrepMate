@@ -84,6 +84,7 @@ function RecordAnsSection ({
     })
 
     if (resp) {
+      console.log(resp)
       toast('User Answer recorded successfully')
       setUserAns('')
       setResults([])
